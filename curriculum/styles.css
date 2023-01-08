@@ -1,0 +1,387 @@
+body{
+    height: auto;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: rgb(35, 36, 36);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    border-radius: 10px;
+}
+
+/*Header - Comun para todas paginas*/
+header{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    margin-bottom: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+header h1{
+    color: #ff4500;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+header p{
+    color: rgb(99, 97, 97);
+    margin-left: 20px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+ul{
+    gap: 20px;
+    float: right;
+    margin-right: 20px;
+}
+
+.links ul li{
+    display: inline;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover h2{
+    color:#ff4500;
+}
+
+h2{
+    margin: 0;
+    color: rgb(99, 97, 97);
+    display: inline;
+}
+
+/*Menu - Pagina Principal*/
+.menu-bloques{
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    border: none;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 1.5%;
+}
+
+.menu-bloques h1{
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.bloque1, .bloque2{
+    display: inline-block;
+}
+
+
+.bloque1{
+    margin: 1.5%;
+    width: 46.75%;
+    padding-bottom: 18%;
+    background-color: rgb(99, 97, 97);
+    border-radius: 10px;
+
+}
+
+.bloque2{
+    margin: 1.5%;
+    width: 46.75%;
+    padding-bottom: 18%;
+    background-color: rgb(99, 97, 97);
+    border-radius: 10px;
+}
+
+.bloque3{
+    margin: 1.5%;
+    width: 46.75%;
+    padding-bottom: 18%;
+    background-color: rgb(99, 97, 97);
+    border-radius: 10px;
+    transform: translate(52%, 0%);
+}
+
+
+
+.bloque1:hover h1{
+    opacity: 0;
+    transition:all .5s ease-in-out;
+}
+
+.bloque2:hover h1{
+    opacity: 0;
+    transition:all .5s ease-in-out;
+}
+
+.bloque3:hover h1{
+    opacity: 0;
+    transition:all .5s ease-in-out;
+}
+
+.bloque1:hover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/yo.jpg);
+    
+}
+
+.bloque2:hover{
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/programmer-developer-typing-script-source-260nw-2055290510.webp);
+}
+
+.bloque3:hover{
+    background-size:  cover;
+    background-repeat: no-repeat;
+    background-image: url(./img/trayec.jpg);
+}
+
+
+
+/*Pagina - Sobre mi*/
+.inicio{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    border: none;
+    border-radius: 10px;
+    height: auto;
+}
+
+.resumen-yo{
+    display: inline-block;
+    width: 70%;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    color: rgb(146, 146, 146);
+}
+
+.yo{
+    display: inline-block;
+    width: 26%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.yo img{
+    width: 75%;
+    height: 400px;
+    float: right;
+}
+
+/*Pagina - Proyectos*/
+.bloques{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    border: none;
+    border-radius: 10px;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+.bloques h1{
+    color: #ff4500;
+    margin-left: 20px;
+}
+
+.terminados{
+    display: inline-block;
+    width: 48%;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #666;
+    border-radius: 10px;
+}
+
+.bloques a{
+    text-decoration: none;
+}
+
+.bloques a h3{
+    margin-left: 20px;
+    color: rgb(99, 97, 97);
+}
+
+.porterminar{
+    display: inline-block;
+    width: 48%;
+    height: auto;
+    margin-bottom: 20px;
+    border: 2px solid #666;
+    border-radius: 10px;
+}
+
+form{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 10%;
+    margin-top: 25px;
+    color: rgb(99, 97, 97);
+}
+
+.nombre{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: left;
+    width: 30%;
+    position: relative;
+}
+
+.proyecto{
+    display: inline-block;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+    place-content: center;
+    position: relative;
+}
+
+.sugerencias{
+    display: inline-block;
+    justify-content: right;
+    width: 35%;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.sugerencias textarea{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20%;
+    resize: none;
+}
+
+/*Pagina - Trayectoria*/
+.cursos{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    border: none;
+    border-radius: 10px;
+    height: auto;
+}
+
+.curso h1{
+    color: #ff4500;
+    margin-left: 2%;
+}
+
+.resumen{
+    display: inline-block;
+    width: 63%;
+    margin-left: 2%;
+    margin-top: 2%;
+    float: left;
+    color: rgb(146, 146, 146);
+    padding-bottom: 5%;
+}
+
+.imagen{
+    display: inline-block;
+    width: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.imagen img{
+    width: 100%;
+    height: 400px;
+    float: right;
+    margin-right: 20px;
+}
+
+.resumen iframe{
+    margin-top: 2%;
+    height: 275px;
+}
+
+
+/*Pie de pagina comun en todas las paginas*/
+footer{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(35, 36, 36);
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer h3{
+    color: rgb(99, 97, 97);
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.redes{
+    display: inline-block;
+    float: right;
+    padding-top: 5%;
+}
+
+.redes ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    transform: translate(0%, -50%);
+    gap: 15px;
+    margin-right: 15px;
+}
+
+.redes ul li{
+    list-style: none;
+    margin: 0;
+}
+
+.redes ul li a{
+    position:  relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 63px;
+    background: #000;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #666;
+    transition: .5s;
+}
+
+.redes ul li a::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: var(--clr);
+    transition: .5s;
+    z-index: -1;
+}
+
+.redes ul li a:hover::before{
+    transform: scale(1.1);
+    box-shadow: 0 0 20px var(--clr);
+}
+
+.redes ul li a img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 1;
+}
